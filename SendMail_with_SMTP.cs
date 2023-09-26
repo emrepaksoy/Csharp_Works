@@ -20,6 +20,7 @@ namespace SmtpMail
         Host = "smtp.gmail.com",
         EnableSsl = true
       }.SendAsync(mailMessage, (object)mailMessage);
+      Console.WriteLine("test");
     }
   }
 }
